@@ -1,1 +1,0 @@
-En este folder es donde acomodas las GitHub actions
