@@ -1,0 +1,18 @@
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+        echo "step 1"
+      - run: |
+        echo "step 2"
+  job2:
+    name: Cowsays
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ship ir
+        uses: mscoutermarsh/cowsays-action@v1mscoutermarsh/cowsays-action@v1
+        with:
+          text: 'Hola hola hola"
+          color: 'green'
