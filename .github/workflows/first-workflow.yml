@@ -22,5 +22,5 @@ jobs:
       - name: Ship
         uses: mscoutermarsh/cowsays-action@master
         with:
-          text: 'Hola ${{ nombre }} ${{ vars.APELLIDO }}'
+          text: 'Hola ${{ env.nombre }} ${{ vars.APELLIDO }}'
           color: 'green'
