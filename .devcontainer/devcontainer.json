@@ -6,5 +6,9 @@
       "installBicep": true,
       "version": "latest"
     }
-  }
+  },
+  "extensions": [
+    "Github.copilot"
+  ],
+  postCreateCommand : "dotnet restore"
 }
