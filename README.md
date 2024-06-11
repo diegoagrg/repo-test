@@ -7,6 +7,7 @@ Este repositorio contiene los archivos necesarios para que puedas iniciar el des
 Participantes:
 
 Rafael Rivadeneyra
+Luis Yair
 
 https://whatthehack-cf.github.io/WhatTheHack_retos/031-DevOpsWithGitHub/
 
