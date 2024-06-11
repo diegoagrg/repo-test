@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ship ir
-        uses: mscoutermarsh/cowsays-action@v1mscoutermarsh/cowsays-action@v1
+        uses: mscoutermarsh/cowsays-action@master
         with:
           text: 'Hola hola hola'
           color: 'green'
