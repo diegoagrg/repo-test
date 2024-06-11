@@ -4,4 +4,8 @@ DevOps es un viaje, no un destino. Nuestro objetivo al escribir este hack basado
 
 Este repositorio contiene los archivos necesarios para que puedas iniciar el desarrollo de tu proyecto.
 
+Participantes:
+
+Rafael Rivadeneyra
+
 https://whatthehack-cf.github.io/WhatTheHack_retos/031-DevOpsWithGitHub/
