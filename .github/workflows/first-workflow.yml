@@ -2,6 +2,8 @@ on:
   workflow_dispatch:
   issues:
     types: [opened]
+env:
+  nombre: 'Diego Antonio'
 jobs:
   job1:
     runs-on: ubuntu-latest
@@ -10,6 +12,8 @@ jobs:
         run: echo 'step 1'
       - name: Step 2
         run: echo 'step 2'
+      - name: Step 3
+        run: $nombre
   job2:
     name: Cowsays
     runs-on: ubuntu-latest
