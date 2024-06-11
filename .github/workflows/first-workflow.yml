@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: job1
     steps:
-      - name: Ship ir
+      - name: Ship
         uses: mscoutermarsh/cowsays-action@master
         with:
-          text: 'Hola hola hola'
+          text: 'Hola $nombre ${{ vars.APELLIDO }}'
           color: 'green'
